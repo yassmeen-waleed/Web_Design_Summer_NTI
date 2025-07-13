@@ -1,0 +1,280 @@
+/* Reset Style */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* global style */
+
+.section {
+  padding: 200px 0;
+  text-align: center;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.container { 
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  align-items: center;
+  gap: 40px;
+}
+.float-right {
+    float: right;
+}
+.float-left {
+    float: left;
+}
+.bg-light {
+    background-color: #f4f6f9;
+}
+
+.text-black {
+    color: black;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+.text-green {
+    color: rgb(29, 178, 29);
+}
+
+/* custom style */
+header {
+    background-color: #dde0e3;
+    
+}
+
+nav {
+    padding: 15px 80px;
+    
+}
+
+nav ul {
+    width: 100%;
+}
+
+
+
+.logo-icon {
+  vertical-align: middle; 
+   margin-left: 8px; 
+  width: 24px;
+  height: 24px;
+}
+
+.btn{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.login {
+    background-color: white;
+    color: rgb(29, 178, 29);;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-right: 10px;
+
+}
+
+.signup-btn {
+    background-color: rgb(29, 178, 29);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.hero {
+    padding: 100px 0; 
+    
+}
+.hero-container {
+  display: flex;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+
+}
+h1{
+    font-size: 3rem;
+    color: rgb(84, 82, 82);
+ 
+}
+p {
+    color: rgb(124, 121, 121);
+}
+
+.hero ul{
+    margin-top: 40px;
+}
+.image {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+   width: 100%;
+  max-width: 550px;
+}
+
+.text {
+  flex: 1.2;
+
+}
+.text a{
+    background-color:rgb(29, 178, 29);
+   color: white;
+   padding: 10px 20px;
+   border-radius: 5px;
+   display: inline-block;
+    margin-top: 30px;
+}
+
+.flex1 {
+    display: block;
+}
+
+.text-color {
+    color: rgb(84, 82, 82);
+}
+.center {
+    text-align: center;
+}
+.logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+
+.logos-section {
+    display: block;
+    justify-content: center;
+    padding-top: 40px;
+    text-align: center;
+}
+.hero-color {
+    background-color: #f4f6f9;
+}
+
+.heading {
+  margin-bottom: 10px;
+}
+
+.logos-section h2 {
+    font-size: 2rem;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 60px;
+}
+
+.card {
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  padding: 80px 30px 30px;
+  width: 300px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  position: relative;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.icon-circle {
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #d9f4e6;
+  color: #2c7a63;
+  width: 60px;
+  height: 60px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 5px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.card p {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.5;
+}
+
+
+
+.testimonial {
+  padding: 80px 0;
+  background-color: white;
+  display: flex;
+}
+
+.testimonial .image {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  max-width: 550px;
+}
+
+.testimonial .text {
+  flex: 1.2;
+}
+
+.testimonial .text a {
+  background-color: rgb(29, 178, 29);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 30px;
+}
+
+.numbers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin-top: 60px;
+}
